@@ -4,26 +4,21 @@ body, html{
     padding: 0px;
     height:100%;
     font-family: 'Raleway', sans-serif;
-    font-size:25px;
+    font-size:1.7vw;
     font-weight:400;
     text-align: center;
     
 }
+h2{font-size: 5vw; color: #000; font-weight: 700;}
+h3{font-size: 3.5vw;color: #040303; font-weight: 600;}
+h4{font-size: 2.5vw;color: #1C0A00;}
 
-
-h2{font-size: 50px; color: #000;}
-h3{font-size: 40px;color: #040303;}
-h4{font-size: 30px;color: #1C0A00;}
-
-.img1, .img2, .img3, .img4, .img5, .img6, .sec{
-    position: relative;
-    opacity: 0.85;
+.i{ 
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-
 .img2, .img3, .img4, .img5, .img6{
     display: flex;
     flex-direction: column;
@@ -39,16 +34,13 @@ h4{font-size: 30px;color: #1C0A00;}
 }
 
 .sec{
-    padding: 5px 100px;
-    /* background-image: url("https://i.pinimg.com/originals/57/dd/bb/57ddbb0e894d12a376ae8653edd2092a.png"); */
+    padding: 2% 10%;
     background-image: url("./photos/content.png");
-    /* background-image: url("https://i.pinimg.com/736x/64/5a/aa/645aaa627381b07ad1ab60812ed093aa.jpg"); */
-    color: white;
-    
+    color: white; 
 }
 
 div p{
-    font-size: 100px;
+    font-size: 6vw;
     letter-spacing: 15px;
     font-weight:900;
 }
@@ -56,16 +48,14 @@ div p{
 .img1{
     background-image: url("./photos/apexlegends.jpg");
     min-height: 100%;
-    font-size: 60px;
+    font-size: 4vw;
     font-weight: 900;
     padding-top: 10px;
     color: white;
 }
 
 .img2{
-    /* background-image: url("https://images.wallpapersden.com/image/download/apex-legends-cool-art_bGxsZ2aUmZqaraWkpJRmbmdlrWZlbWU.jpg"); */
     background-image: url("./photos/bangalore.jpg");
-    /* background-image: url("https://wallpapercave.com/wp/wp5595135.jpg"); */
     min-height: 100%;
     color: #F5EDDC;
 }
@@ -73,12 +63,10 @@ div p{
 .img3{
     background-image: url("./photos/octane.jpg");
     min-height: 100%;
-    text-align:unset;
-    color: #0E185F;
+    color: white;
 }
 
 .img4{
-    /* background-image: url("https://images.wallpapersden.com/image/download/apex-legends-bloodhound_bGVmZWWUmZqaraWkpJRobWllrWdma2U.jpg"); */
     min-height: 100%;
     background-image: url("./photos/bloodhound.jpg");
 }
@@ -94,8 +82,18 @@ div p{
     min-height: 100%;
     color: #F5F0BB;
 }
-
-/* https://wallpaperteg.com/wp-content/uploads/2021/06/Apex-Legends-Bangalore-2019-Apex-Wallpaper-4k-2019-Apex-Phone-4k.jpg */
-/* https://wallpaperteg.com/wp-content/uploads/2021/06/Wallpaper-Of-Video-Game-Legends-Poster-Background-Hd-Image-Apex.jpg */
-
+@media(max-width:450px){
+    .img1, .img2, .img3, .img4, .img5, .img6, .sec{
+        background-attachment: scroll;
+        min-height: 50vw;
+    }
+    .img3{
+        background-image:url(./photos/octane.jpg) !important;
+    }
+}
+@media (max-width:750px){
+    .img3{
+        background-image: url(./photos/octane2.jpg);
+    }
+}
 
