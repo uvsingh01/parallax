@@ -84,11 +84,11 @@ div p{
 }
 @media(max-width:450px){
     .img1, .img2, .img3, .img4, .img5, .img6, .sec{
-        background-attachment: scroll;
-        min-height: 50vw;
+        /* background-attachment: scroll; */
+        /* min-height: 50vw; */
     }
     .img3{
-        background-image:url(./photos/octane.jpg) !important;
+        /* background-image:url(./photos/octane.jpg) !important; */
     }
 }
 @media (max-width:750px){
