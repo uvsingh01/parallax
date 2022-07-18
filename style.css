@@ -90,6 +90,9 @@ div p{
     .img3{
         /* background-image:url(./photos/octane.jpg) !important; */
     }
+    .sec{
+        min-height: 100%;
+    }
 }
 @media (max-width:750px){
     .img3{
