@@ -39,7 +39,7 @@ h4{font-size: 2.5vw;color: #1C0A00;}
     color: white; 
 }
 
-span p{
+.tag{
     font-size: 7vw;
     letter-spacing: 15px;
     font-weight:900;
@@ -92,11 +92,15 @@ span p{
     .sec{
         min-height: 100%;
     }
+    
     body, html{
         font-size:2vh;
+    }
+    .tag{
+        font-size: 6vh;
     }   
 }
-@media (max-width:950px){
+@media(max-width:950px){
     .img3{
         background-image: url(./photos/octane2.jpg);
     }
